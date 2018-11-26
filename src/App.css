@@ -64,7 +64,7 @@ ul {
 
 .subtleText {
   color: #D1D1D1;
-  font-size: .75em; 
+  font-size: .75em;
 }
 
 
@@ -137,4 +137,47 @@ ul {
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+#container {
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#card-search-form {
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#card-search-input {
+  font-size: 3rem;
+  border: 3px solid #fecd2f;
+  color: #2d72fc;
+}
+
+#card-logo {
+  width: 300px;
+  margin-left: 330px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.card-container {
+  float: left;
+  width: 250px;
+  cursor: move;
+  margin: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.flip-image {
+  color: #2d72fc;
 }
